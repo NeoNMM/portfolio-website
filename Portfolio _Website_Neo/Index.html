@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav>
+    <a href="#home" class="logo"><span>Neo</span></a>
+
+    <ul class="links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      
+    </ul>
+
+    <i class='bx bx-menu-alt-right' id="menu"></i>
+    <a href="#contact" class="btn">Contact Me</a>
+  </nav>
+
+  <section id="home">
+    <img src="Beta.png" alt="Neo">
+
+    <div class="info-box">
+      <h1><span>Hello I'm Neo</span></h1>
+      <h3><span>Aspiring IT Professional</span> based in Alberton</h3>
+      <p>Motivated and disciplined matric graduate eager to gain practical experience in IT.</p>
+    </div>
+
+    <div class="btn-box">
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-box">
+      <div class="about-info">
+        <h1><span>About Me</span></h1>
+        <p>Motivated matric graduate with strong interest in IT, software development, and technical problem-solving.
+Currently building practical skills in HTML, CSS, and Python to prepare for a career in the tech industry.</p>
+      </div>
+
+      <h2><span>Skills</span></h2>
+
+      <div class="skills">
+        <ul>
+          <li><span><i class='bx bx-chevron-right'></i>HTML</span></li>
+          <li><span><i class='bx bx-chevron-right'></i>CSS</span></li>
+          <li><span><i class='bx bx-chevron-right'></i>Python</span></li>
+        </ul>
+
+        <ul>
+          <li><span><i class='bx bx-chevron-right'></i>Microsoft Office Suite Proficient</span></li>
+          <li><span><i class='bx bx-chevron-right'></i>Problem Solving</span></li>
+          <li><span><i class='bx bx-chevron-right'></i>Fast Learner</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <img src="Alpha.png" alt="Neo">
+  </section>
+
+  <section id="projects">
+
+  <h1 class="header"><span>Projects</span></h1>
+
+  <div class="project-box">
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Python Beginner Scripts</h3>
+      <p>Basic programs including calculators, loops, and logic exercises.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Future Projects</h3>
+      <p>Currently working on expanding my development skills.</p>
+    </div>
+
+  </div>
+
+</section>
+
+  <section id="contact">
+    <h1 class="header"><span>Contact</span></h1>
+
+<form action="https://formsubmit.co/neomatlou920@gmail.com" method="POST">
+
+  <!-- disables captcha -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- email subject -->
+  <input type="hidden" name="_subject" value="New Portfolio Message!">
+
+  <!-- email layout -->
+  <input type="hidden" name="_template" value="table">
+
+  <!-- Full Name -->
+  <div class="input-box">
+    <span>Full Name</span>
+    <input type="text" name="name" placeholder="Enter Your Full Name" required>
+  </div>
+
+  <!-- Email -->
+  <div class="input-box">
+    <span>Email</span>
+    <input type="email" name="email" placeholder="Enter Your Email" required>
+  </div>
+
+  <!-- Message -->
+  <div class="input-box">
+    <span>Your Message</span>
+    <input type="text" name="message" placeholder="Enter Your Message" required>
+  </div>
+
+  <!-- Submit Button -->
+  <button type="submit" class="btn">Submit</button>
+
+</form>
+
+    <footer>
+      <div class="col-right">
+        <div class="col-box"><span>Leopards Rest Security Estate</span></div>
+        <div class="col-box"><span>+27 79 860 0182</span></div>
+        <div class="col-box"><span>neomatlou920@gmail.com</span></div>
+      </div>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
